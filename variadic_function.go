@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func sumAll(numbers ...int) int {
+func sumAll(numbers ...int) int {	//non-fixed number of arguments
 	total := 0
 
 	for _, number := range numbers {
